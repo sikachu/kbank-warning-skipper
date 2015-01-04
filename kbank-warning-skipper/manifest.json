@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "KBANK Warning Skipper",
+  "description": "Skip that warning splash screen on K-Cyber Service from Kasikorn Bank. Disclaimer: This extension is not made by, nor affiliated with, Kasikorn Bank PLC.",
+  "author": "Prem Sichanugrist",
+  "version": "1.0.0",
+  "homepage_url": "https://github.com/sikachu/kbank-warning-skipper",
+
+  "content_scripts": [
+    {
+      "matches": ["https://online.kasikornbankgroup.com/K-Online/*"],
+      "js": ["kbank-warning-skipper.js"]
+    }
+  ]
+}
