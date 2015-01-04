@@ -7,6 +7,12 @@
   "version": "1.0.0",
   "homepage_url": "https://github.com/sikachu/kbank-warning-skipper",
 
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
   "content_scripts": [
     {
       "matches": ["https://online.kasikornbankgroup.com/K-Online/*"],
